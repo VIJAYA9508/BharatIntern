@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(132, 24, 110);
+    font-family: 'fira sans', sans-serif;
+    width: 20vw;
+    height: 120vh;
+}
+.sidebar nav{
+    padding: 72px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 45px;
+    width: 90vw;
+}
+.main{
+    background-color: rgb(166, 16, 141);
+    width: 80vw;
+}
+
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgb(205, 17, 186);
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 85px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+}
+.buttons{
+ margin-top: 35px;
+}
+.buttons button{
+    padding: 10px 15px;
+    border-radius:24px ;
+    color: rgb(244, 244, 244);
+    background-color: rgb(83, 7, 53);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: rgb(156, 213, 194);
+    background-color: rgb(129, 10, 97);
+
+}
+.devpic img{
+    width: 381px;
+    height: 78vh;
+    justify-content: space-around;
+}
+
+
